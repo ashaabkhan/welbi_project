@@ -1,0 +1,22 @@
+.listItem {
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  color: #000;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.selectedItem {
+  border-color: #007bff;
+}
+
+.listBox {
+  list-style: none;
+  padding: 0;
+}
+
+.extended {
+  padding-top: 20px;
+}
