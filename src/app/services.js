@@ -1,6 +1,6 @@
-const authToken = localStorage.getItem("authToken");
-
 export const getRequest = async (url) => {
+  const authToken = localStorage.getItem("authToken");
+
   try {
     const response = await fetch(url, {
       method: "GET",
@@ -19,6 +19,8 @@ export const getRequest = async (url) => {
 };
 
 export const postRequest = async (url, data) => {
+  const authToken = localStorage.getItem("authToken");
+
   try {
     const response = await fetch(url, {
       method: "POST",
